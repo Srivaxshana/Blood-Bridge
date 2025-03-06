@@ -1,0 +1,174 @@
+.about-container {
+    font-family: 'Arial', sans-serif;
+    margin-top: 80px; /* Adjust based on navbar height */
+  }
+  
+  /* Hero Section */
+  .about-hero {
+    background: linear-gradient(rgba(230, 57, 70, 0.9), rgba(230, 57, 70, 0.8)),
+      url('https://images.unsplash.com/photo-1579154343071-0345e7e1d3ad') center/cover;
+    padding: 8rem 2rem;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+  }
+  
+  /* Mission Section */
+  .mission-section {
+    padding: 5rem 2rem;
+    background: #f2c4c0;
+  }
+  
+  .mission-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .mission-statement {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 2rem auto;
+    color: #555;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+    margin-top: 4rem;
+  }
+  
+  .stat-item {
+    background: rgb(124, 121, 121);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    text-align: center;
+  }
+  
+  .stat-icon {
+    font-size: 2.5rem;
+    color: #e63946;
+    margin-bottom: 1rem;
+  }
+  
+  /* Values Section */
+  .values-section {
+    padding: 5rem 2rem;
+  }
+  
+  .values-section h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .value-card {
+    text-align: center;
+    padding: 2rem;
+    background: #655e5e;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  }
+  
+  .value-icon {
+    font-size: 2.5rem;
+    color: #e63946;
+    margin-bottom: 1rem;
+  }
+  
+  /* Team Section */
+  .team-section {
+    padding: 5rem 2rem;
+    background: #adb0b3;
+  }
+  
+  .team-section h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .team-member {
+    text-align: center;
+    background: rgb(132, 127, 127);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* CTA Section */
+  .about-cta {
+    padding: 6rem 2rem;
+    text-align: center;
+    background: #e63946;
+    color: rgb(202, 196, 196);
+  }
+  
+  .about-cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-button {
+    background: rgb(208, 191, 191);
+    color: #e63946;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-top: 2rem;
+  }
+  
+  .cta-button:hover {
+    transform: translateY(-3px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero-content p {
+      font-size: 1.2rem;
+    }
+  
+    .team-member {
+      padding: 1.5rem;
+    }
+  }

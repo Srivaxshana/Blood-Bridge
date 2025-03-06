@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="https://github.com/rubyeffect/easy_fill/tree/master/lib/easy_fill-0.0.1.min.js"></script>
+        <title>BloodBridge.com</title>
+        <link rel="stylesheet" href="../css/appointment.css">
+        <link rel="stylesheet" href="../css/style.css">
+   
+         <!-- Font Awesome CDN  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+</head>
+
+<body>
+    <div id="container">
+       <div id="body_header">
+         <h1>Schedule an Appointment</h1>
+       </div>
+        <form action = "../index.html"  method="post">
+  
+            <fieldset>
+            <legend>Appointment Details</legend>
+            
+            <label for="date">Date*:</label>
+            <input type="date" name="date" id="date" value="" required></input>
+            <br>
+            <label for="time">Time*:</label>
+            <input type="time" name="time" id="time" value="" required></input>
+            <br>
+            <label for="email">Email*:</label>
+            <input type="email" name="email" id="donoremail" value="" required></input>
+            <br>
+            </fieldset>
+            <button type="submit" onclick="sendAppointmentEmail()">Request For Appointment</button>
+        </form>  
+           
+    </div>
+    <br><br>
+      
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script src="../appointment.js"></script>
+
+
+
+  </body>
+
+</html>
